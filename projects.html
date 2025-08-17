@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohtasham Portfolio</title>
+    <link rel="icon" href="logo .png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        /* Page layout styles */
+
+        .mainbox {
+            padding-top: 100px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .pbox {
+            display: grid;
+            background-color: rgb(55, 48, 48);
+            align-items: center;
+            border-radius: 1pc;
+            padding: 2pc;
+            margin-bottom: 2pc;
+        }
+
+        .pbox a {
+            color: aqua;
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .pbox h1,
+        .pbox h3 {
+            color: aqua;
+            padding-left: 2pc;
+            margin: 0;
+        }
+
+        .pbox p {
+            text-align: center;
+            padding: 1pc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Floating Navbar -->
+   <nav style="background: rgba(28, 28, 28, 0.8);">
+        <header>
+            <div>
+                <img src="logo .png">
+                <a href="index.html">
+                    <p>HOME</p>
+                </a>
+                <a href="projects.html">
+                    <p>Projects</p>
+                </a>
+                <a href="education.html">
+                    <p>Education</p>
+                </a>
+                <a href="contact.html">
+                    <p>Contact me</p>
+                </a>
+            </div>
+        </header>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="mainbox">
+        <div class="pbox">
+            <h1>AI Agent</h1>
+            <h3>Description:</h3>
+            <p>Developed an AI-powered agent using LLMs to answer a wide range of natural language questions.
+Integrated multi-modal capabilities to handle inputs like images (e.g., identifying shirt color).
+Built with a modular architecture using tools like Hugging Face, LangChain, and OpenCV.
+Optimized for real-time responses and scalable deployment with a user-friendly interface.
+</p>
+            <a href="https://github.com/mohtashamali/Ai-Agent">Click here</a>
+        </div>
+        
+        <div class="pbox">
+            <h1>Hand Mouse</h1>
+            <h3>Description:</h3>
+            <p>
+                A Python project that uses computer vision to track hand landmarks and control the mouse cursor. By leveraging Mediapipe for hand detection and OpenCV for video input, it maps specific finger movements to cursor actions, enabling hands-free control.
+            </p>
+            <a href="https://github.com/mohtashamali/Cursor-by-hands" target="_blank">Click here</a>
+        </div>
+        <div class="pbox">
+            <h1>DR LLM</h1>
+            <h3>Description:</h3>
+            <p> Dr LLm is a virtual doctor assistant that uses Groq-hosted LLMs to understand voice and image inputs and provide intelligent, medically relevant responses. The project combines voice recognition, image processing, and large language model capabilities to simulate human-like interactions with a virtual doctor </p>
+            <a href="https://github.com/mohtashamali/DR-LLM" target="_blank">Click here</a>
+        </div>
+        <div class="pbox">
+            <h1>Rain Prediction</h1>
+            <h3>Description:</h3>
+            <p>
+                A machine learning model designed to predict the likelihood of rainfall based on meteorological data such as temperature, humidity, wind direction, and pressure. The model helps improve weather forecasting accuracy and can assist in planning for agriculture and disaster management activities.
+            </p>
+            <a href="https://github.com/mohtashamali/Predict-the-Rain" target="_blank">Click here</a>
+        </div>
+        
+    </section>
+    
+</body>
+
+</html>
